@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        for (int i = 1; i<=10; i++)
-        {
-            System.out.println(i);
-        }
+        int a = 2, b = 10, c = 98, d = 5;
+        int avg = (a+b+c+d)/4;
+
+        System.out.println("Average of number set: " + avg);
     }
 }
